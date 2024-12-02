@@ -87,7 +87,7 @@
             <table class="table table-hover text-center caption-top">
                 <thead>
                     <tr>
-                        <th class="text-light">Collated Sr-No</th>
+                        <th class="text-light">KRIMA_collated_sr_no</th>
                         <th class="text-light">Sr-NO</th>
                         <th class="text-light">Article</th>
                         <th class="text-light">Date</th>
@@ -121,7 +121,7 @@
                 <tbody>
                     {% for i in data %}
                     <tr>
-                        <td style="font-weight: 700;" class="text-center text-secondary" readonly>{{i.collated_sr_no}}</td>
+                        <td style="font-weight: 700;" class="text-center text-secondary" readonly>{{i.KRIMA_collated_sr_no}}</td>
                         <td style="font-weight: 700;" class="text-center text-secondary" readonly>{{i.sr_no}}</td>
                         <td><textarea name="" id="" cols="40" style="font-weight: 700;" class="text-center text-secondary" readonly>{{i.Article}}</textarea></td>
                         <td style="font-weight: 700;" class="text-center text-secondary" readonly>{{i.Date}}</td>
