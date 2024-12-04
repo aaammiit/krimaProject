@@ -118,7 +118,7 @@ USE_TZ = True
 
 import os
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'App/static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'krimaApp/static'),]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
